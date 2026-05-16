@@ -32,7 +32,7 @@ resource adminRoleAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01
   scope: kv
   properties: {
     principalId: adminGroupObjectId
-    principalType: 'Group'
+    principalType: 'User'
     roleDefinitionId: subscriptionResourceId(
       'Microsoft.Authorization/roleDefinitions',
       'b86a8fe4-44ce-4948-aee5-eccb2c155cd7'  // Key Vault Secrets Officer
