@@ -130,12 +130,6 @@ See `docs/security_design.md` for the full STRIDE threat model.
 - CI/CD uses OIDC federated identity — no client secrets, no rotation.
 - Gitleaks secret scan runs on every pull request.
 
----
-
-## Cost (Azure Student Subscription — €85 / 12 months)
-
-Designed to run within free-tier limits. Estimated annual spend: **< €5**
-(Azure OpenAI token usage only). See `docs/cost_governance.md`.
 
 ---
 
