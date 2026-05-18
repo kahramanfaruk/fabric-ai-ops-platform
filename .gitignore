@@ -1,18 +1,61 @@
+########################
+# Python
+########################
 __pycache__/
 *.py[cod]
 *.egg-info/
 dist/
 build/
+
+########################
+# Virtual environments
+########################
 .env
 .env.*
 !.env.example
-*.log
-.DS_Store
 .venv/
 venv/
+
+########################
+# Testing / tooling
+########################
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 htmlcov/
 .coverage
+
+########################
+# Logs
+########################
+*.log
+
+########################
+# OS
+########################
+.DS_Store
+
+########################
+# Jupyter / notebooks
+########################
 notebooks/.ipynb_checkpoints/
+notebooks/.stubs/
+notebooks/.vfscache/
+notebooks/.vfsmeta/
+
+########################
+# VS Code
+########################
+.vscode/
+
+########################
+# Workspace / IDE metadata
+########################
+.work-folder-info
+**/.work-folder-info
+
+########################
+# Temporary / generated folders
+########################
+d0fb6e8b-7e14-4650-af84-7aa7829287a9/
+notebooks/d0fb6e8b-7e14-4650-af84-7aa7829287a9/
